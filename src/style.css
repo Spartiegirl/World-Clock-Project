@@ -1,7 +1,53 @@
-h1 {
-    text-align: center;
+body {
+  background-color: beige;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: white;
+  padding: 60px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 18px;
 }
 
-footer{
-    text-align: center;
+h1 {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 38px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  padding: 20px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+}
+.ctiy:last-child {
+  border: none;
+}
+h2 {
+  margin: 0;
+}
+.date {
+  opacity: 0.3;
+}
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 25px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+footer {
+  text-align: center;
 }
