@@ -20,3 +20,7 @@ sydneyTimeElement.innerHTML = sydneyTime.format(
 }
 updateTime();
 setInterval(updateTime, 1000);
+
+let citySelect = document.querySelector("#city");
+citySelect.addEventListener("change", updateCity);
+
