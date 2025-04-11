@@ -18,6 +18,13 @@ sydneyTimeElement.innerHTML = sydneyTime.format(
   "h:mm:ss [<small>]A[</small>]"
 );
 }
+
+function updateCity(event) {
+    let cityTimeZone = event.target.value;
+    let cityTime = moment().tz(cityTimeZone);
+
+
+}
 updateTime();
 setInterval(updateTime, 1000);
 
