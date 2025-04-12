@@ -28,7 +28,7 @@ h1 {
   justify-content: space-between;
   margin: 15px 0;
   padding: 20px;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 .ctiy:last-child {
   border: none;
